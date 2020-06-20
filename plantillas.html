@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta name="author" content="Museumis" />
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Museumis | Inicio</title>
+  <link rel="icon" type="image/png" href="imagenes/perfil.png" />
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+
+
+
+        <!--   Nav  -->
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo ico responsive-img" alt="Icono"><img src="imagenes/perfil.png" width="64"  height="64"></a>
+
+      <ul class="right hide-on-med-and-down">
+        <li><a href="android.html">Android</a></li>
+        <li><a href="">Noticias</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="android.html">Android</a></li>
+        <li><a href="">Noticias</a></li>
+      </ul>
+      <a href="" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+
+
+      <!--  PArallax  -->
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center">Museumis</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Desarrollo de aplicaciones para mejorar tu productividad</h5>
+        </div>
+        <!-- <div class="row center">
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+        </div>-->
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="imagenes/backgroundIndexTop.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+
+      <!--   Fotter   -->
+  <footer>
+    <div class="container listafotter">
+      <div class="row">
+
+        <div class="col l6 s12 m6">
+            <p>2020, Museumis.</p>
+        </div>
+
+        <div class="col l6 s12 m6">
+          <div class="container">
+            <div class="row">
+              <ul>       
+        
+                <li>
+                  <a class="col s12 m4 l4  modal-trigger" href="#modalCorreo">
+                   E-Mail
+                  </a>
+                </li>        
+        
+                <li>
+                  <a class="col s12 m4 l4" href="https://github.com/museumis" target="_blank">Github</a>
+                </li>        
+        
+                <li>
+                  <a class="col s12 m4 l4" href="https://play.google.com/store/apps/dev?id=6846751951826003408" target="_blank">GooglePlay</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </footer>
+
+
+
+      <!--   Modal enviar correo   -->
+  <div>
+    <div id="modalCorreo" class="modal row">
+      <form class="col s12" action="mailto:contactmuseumis@gmail.com" method="post" enctype="text/plain">
+        <div class="row modal-content">
+
+          <div class="input-field col s12">
+            <input name=" " type="text" class="validate">
+            <label for="email">Body</label>
+            <span class="helper-text">Envíame un correo</span>
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <input class="modal-close waves-effect waves-green btn-flat" type="submit" value="Enviar">
+          <input class="modal-close waves-effect waves-green btn-flat" type="reset" value="Cerrar">
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+
+</body>
+
+</html>
